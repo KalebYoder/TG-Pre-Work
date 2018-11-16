@@ -1,0 +1,22 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#article-title{
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/*In this section we learn how to create and assign an ID and see that ID properties take priority over class properties in CSS.*/
