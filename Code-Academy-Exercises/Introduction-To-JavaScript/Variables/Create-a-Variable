@@ -1,0 +1,21 @@
+var favoriteFood = "pizza";
+var numOfSlices = 8;
+console.log(favoriteFood);
+console.log(numOfSlices);
+
+//This lesson shows how to create variables, assign values, and output their values to the console.
+
+//The Create a variable Let lesson doesn't have a file here so I'm putting it in this file
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
+//This introduces the let variable type which indicates the variable value will be changed. Then it shows us how to change said variable.
+
+//Again, no file for the Create a Variable: const exercise, so it's going here.
+
+const entree = "Enchiladas";
+console.log(entree);
+entree = "Tacos";
+
+//This shows how to set a constant "variable" and shows that once a constant is assigned it can't actually be changed.
