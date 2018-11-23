@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+/*The first and third column stretch when widening the screen if the middle is already at 300px,
+shrink down to almost nothing as you narrow the viewport, and then eventually the center column shrinks to a minimum of 50px while the sides remain constant.*/
