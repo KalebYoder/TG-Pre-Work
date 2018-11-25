@@ -1,0 +1,5 @@
+{
+  "presets": ["env"]
+}
+
+/*This tells Babel to transpile anything from ES6 or later into ES5*/

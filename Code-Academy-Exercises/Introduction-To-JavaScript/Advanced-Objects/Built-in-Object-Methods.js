@@ -21,4 +21,5 @@ const newRobot = Object.assign({laserBlaster: true, voiceRecognition: true}, rob
 
 console.log(newRobot);
 
-/*This returns undefined for the keys and entries methods, but the assignment is fine with that so I'm not sure if that's normal.*/
+/*This returns undefined for the keys and entries methods, but the assignment is fine with that so I'm not sure if that's normal.
+The MDN documentation says it should return the enumerable keys.*/
